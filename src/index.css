@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+ 
+
+:root {
+--font-sans: "Inter", sans-serif;
+--main-color:#7C71DF;
+--dark-color:#292D32;
+--backgroud-color:#f3f4f7;
+
+} 
+input[type="checkbox"] {
+  -webkit-appearance: auto !important;
+  appearance: auto !important;
+}
+
+.NavLink.active {
+    font: bold;
+    color: yellow;
+}
+
+.categ-accessKit {
+    grid-template-columns:repeat(auto-fit, minmax(100px, 5fr));
+}
+/* .footer-container {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 5fr));
+} */
+
+
+
+
+
